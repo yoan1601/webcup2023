@@ -2,12 +2,12 @@
     </div>
   </div>
   <ul class="outer-nav">
-    <li class="is-active">Home</li>
-    <li>Works</li>
-    <li>About</li>
-    <li>Contact</li>
-    <li>Hire us</li>
-    <a href="<?php echo site_url('login/'); ?>" style="text-decoration: none; color:white; font-size:4em;"><li>Login</li></a>
+    <li class="is-active"><span>Accueil</span></li>
+    <li class=""><span>A propos</span></li>
+    <li class=""><span>IIR</span></li>
+    <li class=""><span>Contact</span></li>
+    <li class=""><span>Tech'IT</span></li>
+    <a href="<?php echo site_url('prediction/'); ?>" style="text-decoration: none; color:white; font-size:4em; font-weight:bold;"><li>Prediction</li></a>
   </ul>
 </div>
 
