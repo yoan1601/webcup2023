@@ -8,7 +8,23 @@
   <meta name="description" content="HTML5 website template">
   <meta name="keywords" content="global, template, html, sass, jquery">
   <meta name="author" content="Bucky Maler">
+  <!-- ACCEUIL PRINCIPAL -->
   <link href="<?php echo site_url('assets/principal/css/main.css'); ?>" rel="stylesheet">
+  <!-- FIN ACCEUIL PRINCIPAL -->
+  <!-- LOGIN / INSCRIPTION -->
+  <!-- plugins:css -->
+  <link rel="stylesheet" href="<?php echo site_url('assets/principal/vendors/mdi/css/materialdesignicons.min.css') ?>">
+  <link rel="stylesheet" href="<?php echo site_url('assets/principal/vendors/css/vendor.bundle.base.css') ?>">
+  <!-- endinject -->
+  <!-- Plugin css for this page -->
+  <!-- End plugin css for this page -->
+  <!-- inject:css -->
+  <!-- endinject -->
+  <!-- Layout styles -->
+  <link rel="stylesheet" href="<?php echo site_url('assets/principal/css/style.css') ?>">
+  <!-- End layout styles -->
+  <link rel="shortcut icon" href="<?php echo site_url('assets/principal/images/favicon.png') ?>">
+  <!-- FIN LOGIN / INSCRIPTION -->
 </head>
 <body>
 

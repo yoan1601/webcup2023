@@ -3,6 +3,23 @@
 
     class DbAccessor_client extends CI_Model {
 
+        public function searchClient($subName) {
+
+            $customer = array();
+
+            $sql = "select * from customer where first_name like '%s%s%s'";
+
+            $sql = sprintf($sql, '%', $subName, '%s');
+
+            $query = $this->db->query($sql);
+
+            foreach($query->result_array() as $row) {
+                $customer [] = $row;
+            }
+
+            return $customer;
+        }
+
         public function getClient ($id) {
 
             $sql = 'SELECT * FROM customer WHERE customer_id = %d';
